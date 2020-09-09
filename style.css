@@ -1,4 +1,4 @@
-.body {
+body {
     background-color: rgb(178, 178, 247);
     font-family: 'Montserrat', sans-serif;
     color: #857d7d;
@@ -17,6 +17,14 @@
     text-align: center;
     
     
+}
+.box1 {
+    background: #fff;
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
+    width: 800px;
+    padding: 50px;
+    box-shadow: 2px 2px 5px 1px #ccc;
 }
 .portrait {
     display: inline-block;
@@ -41,7 +49,7 @@
 .bouton {
     font-weight: 700;
     text-align: center;
-    background: #dd5555 ;
+    background: #fd2020 ;
     border-radius: 10px;
     padding: 10px;
 }
@@ -50,11 +58,25 @@
     margin: 50px auto 50px auto;
     border-radius: 10px;
     width: 800px;
+    display: flex;
+    text-align: center;
     padding: 50px;
     box-shadow: 2px 2px 5px 1px #ccc;
+    align-content: center;
+    justify-content: center;
 
 }
+.box2 {
+    background: #fff;
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
+    width: 800px;
+    padding: 50px;
+    box-shadow: 2px 2px 5px 1px #ccc;
+    text-align: center;
+
 }
+
 ul li {
     list-style: none;
     display: flex;
@@ -75,6 +97,15 @@ ul li {
     box-shadow: 1px 1px 1px 1px #ccc;
 
 }
+.box3 {
+    background: #fff;
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
+    width: 800px;
+    padding: 50px;
+    box-shadow: 2px 2px 5px 1px #ccc;
+
+}
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -84,7 +115,31 @@ ul li {
 
 }
 
-span{
+span {
     background: #d4d4d4;
 
+}
+h1 {
+    text-align: center;
+    color: #fd2020;
+    text-align: center;
+    font-weight: 900;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: rgb(178, 178, 247);
+    text-decoration: none;
+}
+
+a#bouton:link, a#bouton:visited {
+    color: rgb(178, 178, 247);
+    text-decoration: none;
 }
