@@ -1,0 +1,90 @@
+.body {
+    background-color: rgb(178, 178, 247);
+    font-family: 'Montserrat', sans-serif;
+    color: #857d7d;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+
+}
+.intro {
+    background: #fff;
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
+    width: 800px;
+    padding: 50px;
+    box-shadow: 2px 2px 5px 1px #ccc;
+    text-align: center;
+    
+    
+}
+.portrait {
+    display: inline-block;
+    border: 5px solid rgb(143, 142, 142);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+}
+.img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  align-content: center;
+  
+
+}
+
+.bouton {
+    font-weight: 700;
+    text-align: center;
+    background: #dd5555 ;
+    border-radius: 10px;
+    padding: 10px;
+}
+.reseaux {
+    background: #fff;
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
+    width: 800px;
+    padding: 50px;
+    box-shadow: 2px 2px 5px 1px #ccc;
+
+}
+}
+ul li {
+    list-style: none;
+    display: flex;
+    float: left;
+    padding-right: 40px;
+    text-align: center;
+    
+
+
+}
+
+.movies {
+    background: #fff;
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
+    width: 800px;
+    padding: 50px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items:center;
+    grid-row-gap: 50px;
+
+}
+
+span{
+    background: #d4d4d4;
+
+}
